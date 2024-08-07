@@ -64,7 +64,7 @@ public class UnitTest1
         // Act
 
         //Assert
-        Assert.Equal(typeof(int), addMethodInfo.ReturnParameter.ParameterType);
+        Assert.Equal(typeof(int), addMethodInfo!.ReturnParameter.ParameterType);
         Assert.NotEqual(typeof(string), addMethodInfo.ReturnParameter.ParameterType);
     }
     
